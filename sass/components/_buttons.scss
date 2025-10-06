@@ -21,3 +21,7 @@ button::after {
     transform: translateX(-50%) rotate(3deg);
     transform-origin: center;
 }
+button:hover {
+    color: $color-extra;
+    transition: 0.9;
+}

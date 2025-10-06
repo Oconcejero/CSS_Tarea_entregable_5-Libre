@@ -15,6 +15,11 @@
         gap: 35px;
         margin-top: 25px;
     }
+    .logotipos{
+        svg:hover path {
+            fill: $color-extra;
+            }
+    }
 }
 @include breakpoint(tablet) {
     .header_001 {
@@ -23,5 +28,12 @@
         justify-content: space-between;
         margin-left: 10%;
         margin-right: 10%;
+    }
+}
+@include breakpoint(desktop) {
+    .header_001 {
+        h2 {
+            font-size: 55px;
+        } 
     }
 }

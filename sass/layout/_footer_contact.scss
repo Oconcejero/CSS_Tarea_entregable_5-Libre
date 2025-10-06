@@ -84,3 +84,22 @@
         }
     }
 }
+@include breakpoint(desktop) {
+    .footer_contact {
+        padding-top: 5%;
+        .header_contact {
+            h3 {
+                font-size: 75px;
+            }
+            p {
+                font-size: 20px;
+                margin-top: 5%;
+            }
+        }
+        .formulario {
+            label {
+                font-size: 20px;
+            }
+        }
+    }
+}

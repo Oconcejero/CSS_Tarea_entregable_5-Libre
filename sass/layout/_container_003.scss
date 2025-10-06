@@ -49,6 +49,9 @@
             margin-top: 15px;
             margin-bottom: 25px;
         }
+        a:hover {
+            color: $color-extra;
+        }
     }
 }
 .container_003::after {
@@ -77,6 +80,16 @@
             align-items: center;
             .code_projects {
                 gap: 15%;
+            }
+        }
+    }
+}
+@include breakpoint(desktop) {
+    .container_003 {
+        .projects {
+            .links_projects {
+                margin-left: 15%;
+                margin-right: 15%;
             }
         }
     }

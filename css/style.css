@@ -32,6 +32,11 @@ button::after {
   transform-origin: center;
 }
 
+button:hover {
+  color: #d526f8;
+  transition: 0.9;
+}
+
 .footer_contact {
   background-color: #242424;
   max-width: 150%;
@@ -111,6 +116,21 @@ button::after {
     margin-left: 50%;
   }
 }
+@media (min-width: 1200px) {
+  .footer_contact {
+    padding-top: 5%;
+  }
+  .footer_contact .header_contact h3 {
+    font-size: 75px;
+  }
+  .footer_contact .header_contact p {
+    font-size: 20px;
+    margin-top: 5%;
+  }
+  .footer_contact .formulario label {
+    font-size: 20px;
+  }
+}
 .header_001 {
   max-width: 100%;
   margin-top: 25px;
@@ -129,6 +149,9 @@ button::after {
   gap: 35px;
   margin-top: 25px;
 }
+.header_001 .logotipos svg:hover path {
+  fill: #d526f8;
+}
 
 @media (min-width: 768px) {
   .header_001 {
@@ -139,11 +162,13 @@ button::after {
     margin-right: 10%;
   }
 }
+@media (min-width: 1200px) {
+  .header_001 h2 {
+    font-size: 55px;
+  }
+}
 .container {
   max-width: 100%;
-  margin-top: 25px;
-  margin-left: 25px;
-  margin-right: 25px;
 }
 
 main {
@@ -186,10 +211,10 @@ body {
 .container_001 .part_001 .marca::after {
   content: "";
   position: absolute;
-  bottom: -10px;
+  bottom: -25px;
   left: 0;
   width: 100%;
-  height: 3px;
+  height: 5px;
   background-color: #7E26F8;
   transform: rotate(-3deg);
   transform-origin: left bottom;
@@ -213,11 +238,37 @@ body {
   .part_001 {
     width: 40%;
   }
+  .part_001 .buttons_part_001 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
   .part_001 button {
     margin-top: 15px !important;
   }
   .part_002 {
     width: 60%;
+  }
+}
+@media (min-width: 1200px) {
+  .container_001 .part_001 .buttons_part_001 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 70px;
+    margin-top: 10%;
+  }
+  .container_001 .part_001 h1 {
+    font-size: 130px;
+    text-align: left;
+    line-height: 110px;
+  }
+  .container_001 .part_001 p {
+    font-size: 45px;
+  }
+  .container_001 .part_002 img {
+    width: 103%;
   }
 }
 .container_002 {
@@ -276,6 +327,11 @@ body {
     margin-right: 5%;
   }
 }
+@media (min-width: 1200px) {
+  .container_002 .lenguajes aside {
+    gap: 10px;
+  }
+}
 .container_003 {
   margin-left: 5px;
   margin-right: 5px;
@@ -329,6 +385,9 @@ body {
   margin-top: 15px;
   margin-bottom: 25px;
 }
+.container_003 article a:hover {
+  color: #d526f8;
+}
 
 .container_003::after {
   display: flex;
@@ -357,6 +416,12 @@ body {
   }
   .container_003 .links_projects .code_projects {
     gap: 15%;
+  }
+}
+@media (min-width: 1200px) {
+  .container_003 .projects .links_projects {
+    margin-left: 15%;
+    margin-right: 15%;
   }
 }
 .body_aboutme {
@@ -393,6 +458,13 @@ body {
   justify-content: center;
   margin-top: 35%;
   padding-bottom: 15%;
+}
+
+@media (min-width: 1200px) {
+  .body_aboutme p {
+    margin-top: 5%;
+    font-size: 24px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -54,3 +54,13 @@
         }
     }
 }
+@include breakpoint(desktop) {
+    .container_002 {
+       .lenguajes {
+            aside {
+                gap: 10px;
+            }
+        }  
+    }
+   
+}

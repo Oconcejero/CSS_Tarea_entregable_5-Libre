@@ -33,3 +33,11 @@
         padding-bottom: 15%;
     }
 }
+@include breakpoint(desktop) {
+    .body_aboutme {
+        p {
+            margin-top: 5%;
+            font-size: 24px;
+        }
+    }
+}
