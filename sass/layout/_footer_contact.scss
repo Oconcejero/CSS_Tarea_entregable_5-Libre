@@ -60,8 +60,27 @@
             outline: none;
             caret-color: $greylight;
         }
-        button {
-            background-color: $greymedium;
+    }
+    button {
+        background-color: $greymedium;
+        margin-left: 10%;
+    }
+}
+@include breakpoint(tablet) {
+    .footer_contact {
+        .header_contact {
+            h3 {
+                font-size: 55px;
+            }
+            p {
+                margin-left: 15%;
+                margin-right: 15%;
+            }
+        }
+        .formulario {
+            button {
+                margin-left: 50%;
+            }
         }
     }
 }

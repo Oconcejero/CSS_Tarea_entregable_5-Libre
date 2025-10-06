@@ -16,3 +16,12 @@
         margin-top: 25px;
     }
 }
+@include breakpoint(tablet) {
+    .header_001 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}

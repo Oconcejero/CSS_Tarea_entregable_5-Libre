@@ -46,3 +46,23 @@
         }
     }
 }
+@include breakpoint(tablet) {
+    .container_001 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 10%;
+    }
+    .part_001 {
+        width: 40%;
+        button {
+            margin-top: 15px !important;
+        }
+    }
+    .part_002 {
+        width: 60%;
+        img {
+           
+        }
+    }
+}

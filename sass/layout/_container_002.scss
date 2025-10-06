@@ -44,3 +44,13 @@
         height: 3px;
         background-color: rgb(61, 61, 61);
 }
+@include breakpoint(tablet) {
+    .container_002 {
+        .lenguajes {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+    }
+}
