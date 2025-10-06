@@ -1,0 +1,67 @@
+.footer_contact {
+    background-color: $greymedium;
+    max-width: 150%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    .header_contact {
+        h3 {
+            font-family: $font-primary;
+            color: white;
+            text-align: center;
+            font-size: 45px;
+        }
+        p {
+            font-family: $font-primary;
+            color: $greylight;
+            text-align: center;
+            margin-top: 10%;
+        }
+    }
+    .formulario form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        font-family: $font-primary;
+        color: $greylight;
+        input {
+            border: none;
+            background-color: $greymedium;
+            margin-top: 10%;
+            margin-bottom: 10%;
+            border-bottom: 2px solid $greylight;
+        }
+        input:focus {
+            border: none;
+            background-color: $greymedium;
+            margin-top: 10%;
+            margin-bottom: 10%;
+            border-bottom: 3px solid $color-secondary;
+            outline: none;
+            caret-color: $greylight;
+        }
+        textarea {
+            border: none;
+            background-color: $greymedium;
+            margin-top: 10%;
+            margin-bottom: 10%;
+            border-bottom: 2px solid $greylight;
+        }
+        textarea:focus {
+            border: none;
+            background-color: $greymedium;
+            margin-top: 10%;
+            margin-bottom: 10%;
+            border-bottom: 3px solid $color-secondary;
+            outline: none;
+            caret-color: $greylight;
+        }
+        button {
+            background-color: $greymedium;
+        }
+    }
+}

@@ -1,3 +1,5 @@
+/* RESPONSIVE */
+/* COLORS */
 /*responsive*/
 * {
   padding: 0;
@@ -5,8 +7,328 @@
   box-sizing: border-box;
 }
 
+button {
+  background-color: #151515;
+  border: none;
+  color: white;
+  padding: 12px 18px;
+  font-size: 18px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 3px;
+  position: relative;
+}
+
+button::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 50%;
+  width: 80%;
+  height: 3px;
+  background-color: #7E26F8;
+  transform: translateX(-50%) rotate(3deg);
+  transform-origin: center;
+}
+
+.footer_contact {
+  background-color: #242424;
+  max-width: 150%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 10%;
+  padding-bottom: 15%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.footer_contact .header_contact h3 {
+  font-family: "Space Grotesk", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 45px;
+}
+.footer_contact .header_contact p {
+  font-family: "Space Grotesk", sans-serif;
+  color: #d9d9d9;
+  text-align: center;
+  margin-top: 10%;
+}
+.footer_contact .formulario form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  font-family: "Space Grotesk", sans-serif;
+  color: #d9d9d9;
+}
+.footer_contact .formulario form input {
+  border: none;
+  background-color: #242424;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-bottom: 2px solid #d9d9d9;
+}
+.footer_contact .formulario form input:focus {
+  border: none;
+  background-color: #242424;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-bottom: 3px solid #7E26F8;
+  outline: none;
+  caret-color: #d9d9d9;
+}
+.footer_contact .formulario form textarea {
+  border: none;
+  background-color: #242424;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-bottom: 2px solid #d9d9d9;
+}
+.footer_contact .formulario form textarea:focus {
+  border: none;
+  background-color: #242424;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-bottom: 3px solid #7E26F8;
+  outline: none;
+  caret-color: #d9d9d9;
+}
+.footer_contact .formulario form button {
+  background-color: #242424;
+}
+
+.header_001 {
+  max-width: 100%;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header_001 h2 {
+  font-family: "Space Grotesk", sans-serif;
+  color: white;
+  font-size: 30px;
+}
+.header_001 .logotipos {
+  display: flex;
+  gap: 35px;
+  margin-top: 25px;
+}
+
+.container {
+  max-width: 100%;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+main {
+  max-width: 100%;
+}
+
 body {
-  background-color: blue;
+  max-width: 100%;
+  background-color: #151515;
+  overflow-x: hidden;
+}
+
+.container_001 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.container_001 .part_002 img {
+  max-width: 107%;
+}
+.container_001 .part_001 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.container_001 .part_001 h1 {
+  font-family: "Space Grotesk", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 55px;
+  white-space: pre-line;
+  line-height: 55px;
+  position: relative;
+}
+.container_001 .part_001 .marca {
+  position: relative;
+  display: inline-block;
+}
+.container_001 .part_001 .marca::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #7E26F8;
+  transform: rotate(-3deg);
+  transform-origin: left bottom;
+}
+.container_001 .part_001 p {
+  font-family: "Space Grotesk", sans-serif;
+  color: #d9d9d9;
+  margin-top: 45px;
+}
+.container_001 .part_001 button {
+  margin-top: 45px;
+}
+
+.container_002 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+  margin-left: 5px;
+  margin-right: 5px;
+  position: relative;
+}
+.container_002 h2 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 35px;
+  color: white;
+}
+.container_002 .lenguajes {
+  display: flex;
+  flex-direction: column;
+}
+.container_002 .lenguajes aside {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25px;
+  margin-right: 25px;
+  gap: 40px;
+  margin-top: 45px;
+}
+.container_002 .lenguajes aside h3 {
+  font-family: "Space Grotesk", sans-serif;
+  color: #d9d9d9;
+  font-size: 45px;
+}
+.container_002 .lenguajes aside img {
+  width: 70px;
+  height: auto;
+  object-fit: contain;
+}
+
+.container_002::after {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: -45px;
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(61, 61, 61);
+}
+
+.container_003 {
+  margin-left: 5px;
+  margin-right: 5px;
+  position: relative;
+}
+.container_003 .header_container_003 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+}
+.container_003 .header_container_003 h2 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 35px;
+  color: white;
+}
+.container_003 .projects {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.container_003 article {
+  margin-top: 10px;
+}
+.container_003 article img {
+  max-width: 100%;
+  margin-top: 35px;
+}
+.container_003 article h3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Space Grotesk", sans-serif;
+  color: white;
+  font-size: 25px;
+  margin-top: 15px;
+}
+.container_003 article .code_projects {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 10px;
+}
+.container_003 article .code_projects a {
+  font-family: "Space Grotesk", sans-serif;
+  color: #d9d9d9;
+  text-decoration: none;
+  font-size: 20px;
+}
+.container_003 article .buttons_projects {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.container_003::after {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: -30px;
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(61, 61, 61);
+}
+
+.body_aboutme {
+  background-color: #151515;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.boton_return {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.container_am_001 p {
+  font-family: "Space Grotesk", sans-serif;
+  color: #d9d9d9;
+  text-align: center;
+  margin-top: 10%;
+  white-space: pre-line;
+}
+.container_am_001 .logotipos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5% 5%;
+  justify-content: center;
+  margin-top: 10%;
+}
+.container_am_001 .logotipos img {
+  width: 100%;
+}
+.container_am_001 .boton_portfolio {
+  display: flex;
+  justify-content: center;
+  margin-top: 35%;
+  padding-bottom: 15%;
 }
 
 /*# sourceMappingURL=style.css.map */

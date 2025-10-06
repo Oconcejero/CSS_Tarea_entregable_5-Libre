@@ -1,0 +1,46 @@
+.container_002 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    h2 {
+        font-family: $font-primary;
+        font-size: 35px;
+        color: white;
+    }
+    .lenguajes {
+        display: flex;
+        flex-direction: column;
+        aside {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 25px;
+            margin-right: 25px;
+            gap: 40px;
+            margin-top: 45px;
+            h3 {
+                font-family: $font-primary;
+                color: $greylight;
+                font-size: 45px;
+            }
+            img {
+                width: 70px;
+                height: auto;
+                object-fit: contain;
+            }   
+        }
+    }
+}
+.container_002::after {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: -45px;
+        content: "";
+        display: inline-block;
+        width: 100%;
+        height: 3px;
+        background-color: rgb(61, 61, 61);
+}

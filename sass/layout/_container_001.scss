@@ -1,0 +1,48 @@
+.container_001 {
+    display: flex;
+    flex-direction: column-reverse;
+    .part_002 {
+        img {
+            max-width: 107%;
+        }
+    }
+    .part_001 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        h1 {
+            font-family: $font-primary;
+            color: white;
+            text-align: center;
+            font-size: 55px;
+            white-space: pre-line;
+            line-height: 55px;
+            position: relative;
+        }
+        .marca {
+            position: relative;
+            display: inline-block;
+        }
+        .marca::after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background-color: $color-secondary;
+            transform: rotate(-3deg);
+            transform-origin: left bottom;
+        }
+        p {
+            font-family: $font-primary;
+            color: $greylight;
+            margin-top: 45px;
+        }
+        button {
+            margin-top: 45px;
+        }
+    }
+}

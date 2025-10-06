@@ -1,0 +1,35 @@
+.body_aboutme {
+    background-color: $color-primary;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.boton_return {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.container_am_001 {
+    p {
+        font-family: $font-primary;
+        color: $greylight;
+        text-align: center;
+        margin-top: 10%;
+        white-space: pre-line;
+    }
+    .logotipos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5% 5%;
+        justify-content: center;
+        margin-top: 10%;
+        img {
+            width: 100%;
+        }
+    }
+    .boton_portfolio {
+        display: flex;
+        justify-content: center;
+        margin-top: 35%;
+        padding-bottom: 15%;
+    }
+}
