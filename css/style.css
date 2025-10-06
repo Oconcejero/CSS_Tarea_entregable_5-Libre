@@ -328,6 +328,10 @@ body {
   }
 }
 @media (min-width: 1200px) {
+  .container_002 {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
   .container_002 .lenguajes aside {
     gap: 10px;
   }
@@ -419,6 +423,10 @@ body {
   }
 }
 @media (min-width: 1200px) {
+  .container_003 {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
   .container_003 .projects .links_projects {
     margin-left: 15%;
     margin-right: 15%;

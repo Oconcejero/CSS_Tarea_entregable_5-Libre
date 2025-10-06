@@ -86,6 +86,8 @@
 }
 @include breakpoint(desktop) {
     .container_003 {
+        margin-left: 10%;
+        margin-right: 10%;
         .projects {
             .links_projects {
                 margin-left: 15%;

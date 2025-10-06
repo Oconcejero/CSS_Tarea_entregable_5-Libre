@@ -56,6 +56,8 @@
 }
 @include breakpoint(desktop) {
     .container_002 {
+        margin-left: 10%;
+        margin-right: 10%;
        .lenguajes {
             aside {
                 gap: 10px;
