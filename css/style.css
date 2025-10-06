@@ -275,8 +275,8 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 90px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
   position: relative;
 }
 .container_002 h2 {
@@ -337,8 +337,8 @@ body {
   }
 }
 .container_003 {
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
   position: relative;
 }
 .container_003 .header_container_003 {
